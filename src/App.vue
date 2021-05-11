@@ -6,11 +6,19 @@
 </template>
 
 <script>
-import ColorPicker from "../plugin/colorPicker.vue";
 export default {
   name: "App",
-  components: { ColorPicker },
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+</style>
