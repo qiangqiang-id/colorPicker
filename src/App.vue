@@ -6,10 +6,8 @@
 </template>
 
 <script>
-import ColorPicker from "../plugin/colorPicker.vue";
 export default {
   name: "App",
-  components: { ColorPicker },
 };
 </script>
 
